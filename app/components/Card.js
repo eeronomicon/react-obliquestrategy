@@ -1,13 +1,16 @@
 var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link
-var MainContainer = require('./MainContainer');
+var CardHeader = require('./CardHeader');
+var CardBody = require('./CardBody');
+require('../styles/styles.css')
 
 function Card () {
   return (
-    <MainContainer>
-      <h1>Feed the recording back out of the medium</h1>
-    </MainContainer>
+    <div className='card'>
+      <CardHeader headerText='Oblique Strategies' />
+      <CardBody bodyText='Feed the recording back out of the medium' />
+    </div>
   )
 }
 
