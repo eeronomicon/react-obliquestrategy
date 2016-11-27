@@ -11,6 +11,7 @@ a, a:hover, a:active, a:visited {
   color: white;
   padding: 40px;
   border-radius: 10px;
+  min-width: 600px;
 
   position: absolute;
   top:0;
