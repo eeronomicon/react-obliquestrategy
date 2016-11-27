@@ -9,7 +9,7 @@ function Card (props) {
   return (
     <div className='card'>
       <CardHeader headerText='Oblique Strategies' headerLink='about' />
-      <CardBody bodyText={cards[props.cardNumber]} />
+      <CardBody bodyText={(props.cardNumber + 1) + ': ' + cards[props.cardNumber]} />
       <CardFooter footerText='Click here to draw another card' redrawCard={props.redrawCard} />
     </div>
   )
