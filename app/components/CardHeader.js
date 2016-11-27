@@ -1,10 +1,14 @@
 var React = require('react');
+var ReactRouter = require('react-router');
+var Link = ReactRouter.Link
 
 var CardHeader = React.createClass({
   render: function () {
     return (
       <div>
-        {this.props.headerText}
+        <Link to={this.props.headerLink}>
+          {this.props.headerText}
+        </Link>
       </div>
     )
   }

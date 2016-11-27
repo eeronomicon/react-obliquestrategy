@@ -3,7 +3,7 @@ var React = require('react');
 function CardBody (props) {
   return (
     <div>
-      <h1>{props.bodyText}</h1>
+      <p className='card-body'>{props.bodyText}</p>
     </div>
   )
 }
