@@ -1,0 +1,36 @@
+{
+  "name": "react-obliquestrategies",
+  "version": "1.0.0",
+  "description": "Oblique Strategies, React.js Edition",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeronomicon/react-obliquestrategies.git"
+  },
+  "author": "HK Kahng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReactjsProgram/react-fundamentals-curriculum/issues"
+  },
+  "homepage": "http://courses.reactjsprogram.com/courses/reactjsfundamentals",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.26.0",
+    "html-webpack-plugin": "^2.9.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
