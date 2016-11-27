@@ -7,10 +7,10 @@ require('../styles/styles.css')
 
 function Card (props) {
   return (
-      <div className='card'>
+    <div className='card'>
       <CardHeader headerText='Oblique Strategies' headerLink='about' />
       <CardBody bodyText={cards[props.cardNumber]} />
-      <CardFooter footerText='Click here to draw another card' />
+      <CardFooter footerText='Click here to draw another card' redrawCard={props.redrawCard} />
     </div>
   )
 }
