@@ -11,6 +11,8 @@ Build an Oblique Strategies card deck with React.js.
 * Run `npm run start`
 * Navigate to http://localhost:8080/webpack-dev-server/
 
+Alternately, access the minified application here: http://router-rooter.com/oblique
+
 ## Contact
 
 Contact me via GitHub!
